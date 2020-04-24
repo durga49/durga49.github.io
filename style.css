@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Kreon', serif;
+}
+body{
+    background-color: white;
+}
+#box{
+    
+    width: 400px;
+    border: 1px solid black;
+    padding: 80px;
+    margin: 20px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 70px;
+    background-color:grey;
+    font-family: 'Kreon', serif;
+    font-size: 20px;
+}
+
+#box .inbox1{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:#ea8685;
+    position:absolute;
+    bottom:439px; 
+    right:1066.6px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kreon', serif;
+}
+#box .inbox2{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #e55039;
+    color: white;
+    position:absolute;
+    bottom:439px; 
+    right:575.8px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kreon', serif;
+}
+#box .inbox3{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #fad390;
+    position:absolute;
+    bottom:439px; 
+    right:86px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kreon', serif;
+
+}
+@media(min-width:992px)
+{
+    #p1{
+        width: 33.33%;
+    }
+    #p2{
+        width: 33.33%;
+    }
+    #p3{
+        width: 33.33%;
+    }
+}
+
+
+    
